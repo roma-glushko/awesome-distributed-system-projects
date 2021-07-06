@@ -20,8 +20,9 @@ This repository contains list of distributed system projects with open source co
 
 ## Streaming
 
-- [(Python) faust - a distributed stream processing library that ports the ideas from Kafka Streams to Python](https://github.com/robinhood/faust)
-- [(Golang) Liftbridge - lightweight, fault-tolerant message streams by implementing a durable stream augmentation for the NATS messaging system](https://github.com/liftbridge-io/liftbridge)
+- (Java) [Kafka - distributed, highly scalable, elastic, fault-tolerant, and secure event streaming platform](https://github.com/apache/kafka)
+- (Python) [faust - a distributed stream processing library that ports the ideas from Kafka Streams to Python](https://github.com/robinhood/faust)
+- (Golang) [Liftbridge - lightweight, fault-tolerant message streams by implementing a durable stream augmentation for the NATS messaging system](https://github.com/liftbridge-io/liftbridge)
 
 ## Schedulers
 
@@ -29,10 +30,19 @@ This repository contains list of distributed system projects with open source co
 
 ## Queues
 
-- [(Golang) nsq - realtime fault tolerant distributed messaging platform designed to operate at scale, handling billions of messages per day [Raft + gRPC]](https://github.com/nsqio/nsq)
-- [(Golang) Sandglass - distributed, horizontally scalable, persistent, time ordered message queue](https://github.com/sandglass/sandglass)
-- [(Golang) dnpipes - distributed version of Unix named pipes comparable to AWS SQS](https://github.com/mhausenblas/dnpipes)
-- [(PHP) GatewayWorker - distributed realtime messaging framework based on workerman](https://github.com/walkor/GatewayWorker)
+- (Golang) [nsq - realtime fault tolerant distributed messaging platform designed to operate at scale, handling billions of messages per day [Raft + gRPC]](https://github.com/nsqio/nsq)
+- (Golang) [Sandglass - distributed, horizontally scalable, persistent, time ordered message queue](https://github.com/sandglass/sandglass)
+- (Golang) [dnpipes - distributed version of Unix named pipes comparable to AWS SQS](https://github.com/mhausenblas/dnpipes)
+- (PHP) [GatewayWorker - distributed realtime messaging framework based on workerman](https://github.com/walkor/GatewayWorker)
+- (C++) [ZeroMQ - abstraction of asynchronous message queues, multiple messaging patterns, message filtering (subscriptions), seamless access to multiple transport protocols and more](https://github.com/zeromq/libzmq)
+
+## Search Engines
+
+- (Java) [ElasticSearch - distributed, RESTful search and analytics engine](https://github.com/elastic/elasticsearch)
+- (Rust) [MeiliSearch - Lightning Fast, Ultra Relevant, and Typo-Tolerant Search Engine](https://github.com/meilisearch/MeiliSearch)
+- (JS) [FlexSearch - memory-flexible full-text search library](https://github.com/nextapps-de/flexsearch)
+- (Golang) [RiotSearch - distributed, Simple and efficient full text search engine](https://github.com/go-ego/riot)
+- (C++) [Typesense - fast, typo tolerant, fuzzy search engine](https://github.com/typesense/typesense)
 
 ## File Systems
 
