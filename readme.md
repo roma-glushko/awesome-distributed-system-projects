@@ -1,6 +1,6 @@
 # Awesome Distributed System Projects
 
-This repository contains list of distributed system projects with open source code in various programming languages which may be review in order to better understand how to distributed services.
+This repository contains list of distributed system projects with open source code in various programming languages which may be useful in order to better understand how to build distributed services.
 
 ## Databases
 
@@ -11,8 +11,9 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
 - (Golang) [CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
 - (Erlang) [CouchDB - highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
-- (C++) [MongoDB - a document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
-
+- (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
+- (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
+- (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 ## Locking
 
 - [(Golang) etcd - distributed reliable key-value store for the most critical data of a distributed system [Raft + gRPC]](https://github.com/etcd-io/etcd)
@@ -26,7 +27,7 @@ This repository contains list of distributed system projects with open source co
 
 ## Schedulers
 
-- [(Golang) dkron - distributed, fault tolerant job scheduling system for cloud native environments](https://github.com/distribworks/dkron)
+- (Golang) [dkron - distributed, fault tolerant job scheduling system for cloud native environments](https://github.com/distribworks/dkron)
 
 ## Queues
 
@@ -61,13 +62,13 @@ This repository contains list of distributed system projects with open source co
  
 ## Frameworks
 
-- [(Golang) etcd - framework for distributed systems development](https://github.com/asim/go-micro). Provides the core requirements for distributed systems development including RPC and Event driven communication
-- [(Golang) ergo - port of Erlang/OTP approaches in Golang](https://github.com/halturin/ergo)
-- [(Golang) gosiris - an actor framework for Golang](https://github.com/teivah/gosiris)
-- [(Python) cotyledon - a framework for defining long-running services](https://github.com/sileht/cotyledon). It provides handling of Unix signals, spawning of workers, supervision of children processes, daemon reloading, sd-notify, rate limiting for worker spawning, and more.
-- [(Java) atomix - fully featured framework for building fault-tolerant distributed systems [REST + Raft]](https://github.com/atomix/atomix)
-- [(Kotlin) orbit - virtual actor framework for building distributed systems](https://github.com/orbit/orbit)
-- [(JS) hemera - A Node.js microservices toolkit for the NATS messaging system [RPC]](https://github.com/hemerajs/hemera)
+- (Golang) [etcd - framework for distributed systems development](https://github.com/asim/go-micro). Provides the core requirements for distributed systems development including RPC and Event driven communication
+- (Golang) [ergo - port of Erlang/OTP approaches in Golang](https://github.com/halturin/ergo)
+- (Golang) [gosiris - an actor framework for Golang](https://github.com/teivah/gosiris)
+- (Python) [cotyledon - a framework for defining long-running services](https://github.com/sileht/cotyledon). It provides handling of Unix signals, spawning of workers, supervision of children processes, daemon reloading, sd-notify, rate limiting for worker spawning, and more.
+- (Java) [atomix - fully featured framework for building fault-tolerant distributed systems [REST + Raft]](https://github.com/atomix/atomix)
+- (Kotlin) [ orbit - virtual actor framework for building distributed systems](https://github.com/orbit/orbit)
+- (JS) [hemera - A Node.js microservices toolkit for the NATS messaging system [RPC]](https://github.com/hemerajs/hemera)
 
 ## Components
 
