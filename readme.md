@@ -72,6 +72,7 @@ This repository contains list of distributed system projects with open source co
 - (Java) [atomix - fully featured framework for building fault-tolerant distributed systems [REST + Raft]](https://github.com/atomix/atomix)
 - (Kotlin) [ orbit - virtual actor framework for building distributed systems](https://github.com/orbit/orbit)
 - (JS) [hemera - A Node.js microservices toolkit for the NATS messaging system [RPC]](https://github.com/hemerajs/hemera)
+- (Python) [Tooz - centralizing the most common distributed primitives like group membership protocol, lock service and leader election by providing a coordination API helping developers to build distributed applications](https://github.com/openstack/tooz)
 
 ## Components
 
