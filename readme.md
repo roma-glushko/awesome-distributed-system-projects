@@ -16,8 +16,8 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 ## Locking
 
-- [(Golang) etcd - distributed reliable key-value store for the most critical data of a distributed system [Raft + gRPC]](https://github.com/etcd-io/etcd)
-- [(Java) Apache Zookeeper - highly reliable distributed coordination](https://github.com/apache/zookeeper)
+- (Golang) [etcd - distributed reliable key-value store for the most critical data of a distributed system [Raft + gRPC]](https://github.com/etcd-io/etcd)
+- (Java) [Apache Zookeeper - highly reliable distributed coordination](https://github.com/apache/zookeeper)
 
 ## Streaming
 
@@ -28,6 +28,7 @@ This repository contains list of distributed system projects with open source co
 ## Schedulers
 
 - (Golang) [dkron - distributed, fault tolerant job scheduling system for cloud native environments](https://github.com/distribworks/dkron)
+- (Python) [Celery - distributed task queue](https://github.com/celery/celery)
 
 ## Queues
 
@@ -72,10 +73,10 @@ This repository contains list of distributed system projects with open source co
 
 ## Components
 
-- [(Golang) Dragonboat - a high performance multi-group Raft consensus library in pure Go](https://github.com/lni/dragonboat)
-- [(Golang) Golimit - Uber ringpop based distributed and decentralized rate limiter](https://github.com/myntra/golimit)
-- [(Python) Tenacity - general-purpose retrying library](https://github.com/jd/tenacity)
-- [(Elixir) ex_hash_ring - pure Elixir consistent hash ring implementation based on the excellent C hash-ring lib](https://github.com/discord/ex_hash_ring)
+- (Golang) [Dragonboat - a high performance multi-group Raft consensus library in pure Go](https://github.com/lni/dragonboat)
+- (Golang) [Golimit - Uber ringpop based distributed and decentralized rate limiter](https://github.com/myntra/golimit)
+- (Python) [Tenacity - general-purpose retrying library](https://github.com/jd/tenacity)
+- (Elixir) [ex_hash_ring - pure Elixir consistent hash ring implementation based on the excellent C hash-ring lib](https://github.com/discord/ex_hash_ring)
 
 ## Other Resources
 
