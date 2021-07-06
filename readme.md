@@ -4,14 +4,16 @@ This repository contains list of distributed system projects with open source co
 
 ## Databases
 
-- [(Golang) Jocko - Kafka/distributed commit log service in Go. [Serf + Raft]](https://github.com/travisjeffery/jocko)
-- [(Golang) oklog - distributed and coordination-free log management system for big ol' clusters [Archived]](https://github.com/oklog/oklog)
-- [(Golang) Kingbus - a distributed MySQL binlog store based on raft [Raft]](https://github.com/flike/kingbus)
-- [(Golang) elasticell - a distributed HA Redis-compatible NoSQL database with strong consistency and reliability](https://github.com/deepfabric/elasticell)
-- [(Golang) RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
-- [(Golang) CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
+- (Golang) [Jocko - Kafka/distributed commit log service in Go. [Serf + Raft]](https://github.com/travisjeffery/jocko)
+- (Golang) [oklog - distributed and coordination-free log management system for big ol' clusters [Archived]](https://github.com/oklog/oklog)
+- (Golang) [Kingbus - a distributed MySQL binlog store based on raft [Raft]](https://github.com/flike/kingbus)
+- (Golang) [elasticell - a distributed HA Redis-compatible NoSQL database with strong consistency and reliability](https://github.com/deepfabric/elasticell)
+- (Golang) [RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
+- (Golang) [CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
+- (Erlang) [CouchDB - highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
+- (C++) [MongoDB - a document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
 
-## Key-Value Storages
+## Locking
 
 - [(Golang) etcd - distributed reliable key-value store for the most critical data of a distributed system [Raft + gRPC]](https://github.com/etcd-io/etcd)
 - [(Java) Apache Zookeeper - highly reliable distributed coordination](https://github.com/apache/zookeeper)
@@ -32,16 +34,20 @@ This repository contains list of distributed system projects with open source co
 - [(Golang) dnpipes - distributed version of Unix named pipes comparable to AWS SQS](https://github.com/mhausenblas/dnpipes)
 - [(PHP) GatewayWorker - distributed realtime messaging framework based on workerman](https://github.com/walkor/GatewayWorker)
 
-## FileSystems
+## File Systems
 
-- [(Golang) JuiceFS - Hadoop-compatible AWS S3-compatible high-performance POSIX file system](https://github.com/juicedata/juicefs)
-- [(Golang) SeaweedFS - a simple Hadoop-compatible AWS S3-compatible distributed highly scalable distributed file system](https://github.com/chrislusf/seaweedfs)
-- [(C) GlusterFS - distributed storage that can scale to several petabytes](https://github.com/gluster/glusterfs)
-- [(C++) GlusterFS - highly reliable, scalable and efficient distributed file system](https://github.com/lizardfs/lizardfs). It spreads data over a number of physical servers, making it visible to an end user as a single file system.
+- (Golang) [JuiceFS - Hadoop-compatible AWS S3-compatible high-performance POSIX file system](https://github.com/juicedata/juicefs)
+- (Golang) [SeaweedFS - a simple Hadoop-compatible AWS S3-compatible distributed highly scalable distributed file system](https://github.com/chrislusf/seaweedfs)
+- (C) [GlusterFS - distributed storage that can scale to several petabytes](https://github.com/gluster/glusterfs)
+- (C++) [GlusterFS - highly reliable, scalable and efficient distributed file system](https://github.com/lizardfs/lizardfs). It spreads data over a number of physical servers, making it visible to an end user as a single file system.
+
+## Service Discovery
+
+- (Golang) [sleuth - master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network](https://github.com/ursiform/sleuth)
 
 ## OS
 
-- [(C) HarveyOS - distributed operating system](https://github.com/Harvey-OS/harvey)
+- (C)[HarveyOS - distributed operating system](https://github.com/Harvey-OS/harvey)
  
 ## Frameworks
 
