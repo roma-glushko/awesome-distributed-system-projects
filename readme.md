@@ -73,6 +73,7 @@ This repository contains list of distributed system projects with open source co
 - (Kotlin) [ orbit - virtual actor framework for building distributed systems](https://github.com/orbit/orbit)
 - (JS) [hemera - A Node.js microservices toolkit for the NATS messaging system [RPC]](https://github.com/hemerajs/hemera)
 - (Python) [Tooz - centralizing the most common distributed primitives like group membership protocol, lock service and leader election by providing a coordination API helping developers to build distributed applications](https://github.com/openstack/tooz)
+- (C++) [Nebula - powerful framework for building highly concurrent, distributed, and resilient message-driven applications](https://github.com/Bwar/Nebula)
 
 ## Components
 
@@ -80,7 +81,10 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [Golimit - Uber ringpop based distributed and decentralized rate limiter](https://github.com/myntra/golimit)
 - (Python) [Tenacity - general-purpose retrying library](https://github.com/jd/tenacity)
 - (Elixir) [ex_hash_ring - pure Elixir consistent hash ring implementation based on the excellent C hash-ring lib](https://github.com/discord/ex_hash_ring)
+- (Elixir) [raft - Raft consensus implementation](https://github.com/toniqsystems/raft)
+- (C++) [NuRaft - Raft implementation derived from the cornerstone project](https://github.com/eBay/NuRaft)
 
 ## Other Resources
 
 - [awesome-scalability - Reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems](https://github.com/binhnguyennus/awesome-scalability)
+- [awesome-distributed-systems - curated list on awesome material on distributed systems](https://github.com/theanalyst/awesome-distributed-systems)
