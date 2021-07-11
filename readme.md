@@ -71,7 +71,7 @@ This repository contains list of distributed system projects with open source co
 
 ## OS
 
-- (C)[HarveyOS - distributed operating system](https://github.com/Harvey-OS/harvey)
+- (C) [HarveyOS - distributed operating system](https://github.com/Harvey-OS/harvey)
  
 ## Frameworks
 
