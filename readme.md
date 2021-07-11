@@ -16,10 +16,12 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 - (Golang) [tikv - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
+- (C) [memcached - high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
 ## Locking
 
 - (Golang) [etcd - distributed reliable key-value store for the most critical data of a distributed system [Raft + gRPC]](https://github.com/etcd-io/etcd)
 - (Java) [Apache Zookeeper - highly reliable distributed coordination](https://github.com/apache/zookeeper)
+- (Golang) [chubby - A (very simplified) implementation of Chubby, Google's distributed lock service](https://github.com/sherrybai/chubby)
 
 ## Streaming
 
@@ -31,6 +33,7 @@ This repository contains list of distributed system projects with open source co
 
 - (Golang) [dkron - distributed, fault tolerant job scheduling system for cloud native environments](https://github.com/distribworks/dkron)
 - (Python) [Celery - distributed task queue](https://github.com/celery/celery)
+- (Python) [Apache Airflow - a platform to programmatically author, schedule, and monitor workflows](https://github.com/apache/airflow)
 
 ## Queues
 
@@ -39,10 +42,13 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [dnpipes - distributed version of Unix named pipes comparable to AWS SQS](https://github.com/mhausenblas/dnpipes)
 - (PHP) [GatewayWorker - distributed realtime messaging framework based on workerman](https://github.com/walkor/GatewayWorker)
 - (C++) [ZeroMQ - abstraction of asynchronous message queues, multiple messaging patterns, message filtering (subscriptions), seamless access to multiple transport protocols and more](https://github.com/zeromq/libzmq)
+- (Java) [Apache Pulsar - distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API](https://github.com/apache/pulsar)
+- (Java) [Apache ActiveMQ - high performance Apache 2.0 licensed Message Broker](https://github.com/apache/activemq)
 
 ## Search Engines
 
 - (Java) [ElasticSearch - distributed, RESTful search and analytics engine](https://github.com/elastic/elasticsearch)
+- (Java) [Apache Lucene -  a high-performance, full featured text search engine library](https://github.com/apache/lucene)
 - (Rust) [MeiliSearch - Lightning Fast, Ultra Relevant, and Typo-Tolerant Search Engine](https://github.com/meilisearch/MeiliSearch)
 - (JS) [FlexSearch - memory-flexible full-text search library](https://github.com/nextapps-de/flexsearch)
 - (Golang) [RiotSearch - distributed, Simple and efficient full text search engine](https://github.com/go-ego/riot)
@@ -58,6 +64,10 @@ This repository contains list of distributed system projects with open source co
 ## Service Discovery
 
 - (Golang) [sleuth - master-less peer-to-peer autodiscovery and RPC between HTTP services that reside on the same network](https://github.com/ursiform/sleuth)
+
+## Data Processing
+
+- (Scala) [Apache Spark - unified analytics engine for large-scale data processing](https://github.com/ursiform/sleuth)
 
 ## OS
 
