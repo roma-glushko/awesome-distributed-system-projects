@@ -14,7 +14,7 @@ This repository contains list of distributed system projects with open source co
 - (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
 - (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
-- (Golang) [tikv - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
+- (Rust) [TiKV - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
 - (C) [memcached - high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
 ## Locking
