@@ -6,17 +6,41 @@ This repository contains list of distributed system projects with open source co
 
 - (Golang) [Jocko - Kafka/distributed commit log service in Go. [Serf + Raft]](https://github.com/travisjeffery/jocko)
 - (Golang) [oklog - distributed and coordination-free log management system for big ol' clusters [Archived]](https://github.com/oklog/oklog)
-- (Golang) [Kingbus - a distributed MySQL binlog store based on raft [Raft]](https://github.com/flike/kingbus)
 - (Golang) [elasticell - a distributed HA Redis-compatible NoSQL database with strong consistency and reliability](https://github.com/deepfabric/elasticell)
-- (Golang) [RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
-- (Golang) [CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
 - (Erlang) [CouchDB - highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
-- (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
 - (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
-- (Rust) [TiKV - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
+
+### Key-Value Database
+
 - (C) [memcached - high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
+- (C) [redis - in-memory database with various value types that persists on disk](https://github.com/redis/redis)
+- (Rust) [TiKV - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
+
+### Relational/SQL Databases
+
+- (Golang) [CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
+- (Golang) [YugabyteDB - cloud native distributed SQL database for mission-critical applications](https://github.com/yugabyte/yugabyte-db)
+- (Golang) [RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
+- (Golang) [Kingbus - a distributed MySQL binlog store based on raft [Raft]](https://github.com/flike/kingbus)
+
+### NoSQL/Document Databases
+
+- (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
+
+
+### Graph Databases
+
+- (Java) [neo4j - Graph Database](https://github.com/neo4j/neo4j)
+- (Python) [edgedb - a graph-relational database](https://github.com/edgedb/edgedb)
+- (C++) [nebula - a distributed, fast open-source graph database featuring horizontal scalability and high availability](https://github.com/vesoft-inc/nebula)
+
+### Time Series
+
+- (Golang) [VictoriaMetrics - fast, cost-effective monitoring solution and time series database](https://github.com/VictoriaMetrics/VictoriaMetrics)
+- (Golang) [influxdb - scalable datastore for metrics, events, and real-time analytics](https://github.com/influxdata/influxdb)
+
 ## Locking
 
 - (Golang) [etcd - distributed reliable key-value store for the most critical data of a distributed system [Raft + gRPC]](https://github.com/etcd-io/etcd)
@@ -93,6 +117,7 @@ This repository contains list of distributed system projects with open source co
 - (Elixir) [ex_hash_ring - pure Elixir consistent hash ring implementation based on the excellent C hash-ring lib](https://github.com/discord/ex_hash_ring)
 - (Elixir) [raft - Raft consensus implementation](https://github.com/toniqsystems/raft)
 - (C++) [NuRaft - Raft implementation derived from the cornerstone project](https://github.com/eBay/NuRaft)
+- (Python) [Hyx - Lightweight fault tolerance primitives for your resilient and modern Python microservices](https://github.com/roma-glushko/hyx)
 
 ## Other Resources
 
