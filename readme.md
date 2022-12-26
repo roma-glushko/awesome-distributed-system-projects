@@ -17,6 +17,8 @@ This repository contains list of distributed system projects with open source co
 - (C) [memcached - high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
 - (C) [redis - in-memory database with various value types that persists on disk](https://github.com/redis/redis)
 - (Rust) [TiKV - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
+- (C++) [leveldb - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values](https://github.com/google/leveldb)
+- (Golang) [goleveldb - LevelDB implemented in Golang](https://github.com/syndtr/goleveldb)
 
 ### Relational/SQL Databases
 
@@ -28,7 +30,7 @@ This repository contains list of distributed system projects with open source co
 ### NoSQL/Document Databases
 
 - (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
-
+- (C#) [LiteDB - NoSQL Document Store in a single data file](https://github.com/mbdavid/LiteDB)
 
 ### Graph Databases
 
@@ -40,6 +42,8 @@ This repository contains list of distributed system projects with open source co
 
 - (Golang) [VictoriaMetrics - fast, cost-effective monitoring solution and time series database](https://github.com/VictoriaMetrics/VictoriaMetrics)
 - (Golang) [influxdb - scalable datastore for metrics, events, and real-time analytics](https://github.com/influxdata/influxdb)
+- (Java) [trino - fast distributed SQL query engine for big data analytics](https://github.com/trinodb/trino)
+- (Java) [Apache Doris - an easy-to-use, high performance and unified analytics database](https://github.com/apache/doris)
 
 ## Locking
 
