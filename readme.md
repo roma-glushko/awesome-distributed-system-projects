@@ -11,6 +11,8 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
+- (Golang) [immudb - immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
+- [Rust] [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
 
 ### Key-Value Database
 
@@ -30,6 +32,7 @@ This repository contains list of distributed system projects with open source co
 ### NoSQL/Document Databases
 
 - (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
+- (Golang) [FerretDB -  an open-source proxy, converting the MongoDB 6.0+ wire protocol queries to SQL - using PostgreSQL as a database engine](https://github.com/FerretDB/FerretDB)
 - (C#) [LiteDB - NoSQL Document Store in a single data file](https://github.com/mbdavid/LiteDB)
 
 ### Graph Databases
