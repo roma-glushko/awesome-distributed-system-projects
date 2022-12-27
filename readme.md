@@ -21,6 +21,7 @@ This repository contains list of distributed system projects with open source co
 - (Rust) [TiKV - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
 - (C++) [leveldb - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values](https://github.com/google/leveldb)
 - (Golang) [goleveldb - LevelDB implemented in Golang](https://github.com/syndtr/goleveldb)
+- (Golang) [summitdb - in-memory, NoSQL key/value database. It persists to disk, uses the Raft consensus algorithm, is ACID compliant, and built on a transactional and strongly-consistent model](https://github.com/tidwall/summitdb).It supports custom indexes, geospatial data, JSON documents, and user-defined JS scripting
 
 ### Relational/SQL Databases
 
@@ -47,6 +48,8 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [influxdb - scalable datastore for metrics, events, and real-time analytics](https://github.com/influxdata/influxdb)
 - (Java) [trino - fast distributed SQL query engine for big data analytics](https://github.com/trinodb/trino)
 - (Java) [Apache Doris - an easy-to-use, high performance and unified analytics database](https://github.com/apache/doris)
+- (Scala) [FiloDB - Distributed, Prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
+- (Rust) [ceresdb - high-performance, distributed, schema-less, cloud native time-series database that can handle both time-series and analytics workloads](https://github.com/CeresDB/ceresdb)
 
 ## Locking
 
@@ -100,6 +103,10 @@ This repository contains list of distributed system projects with open source co
 
 - (Scala) [Apache Spark - unified analytics engine for large-scale data processing](https://github.com/ursiform/sleuth)
 
+## TerminusDB
+
+- (Prolog) [terminusdb - distributed database with a collaboration model](https://github.com/terminusdb/terminusdb)
+
 ## OS
 
 - (C) [HarveyOS - distributed operating system](https://github.com/Harvey-OS/harvey)
@@ -130,3 +137,4 @@ This repository contains list of distributed system projects with open source co
 
 - [awesome-scalability - Reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems](https://github.com/binhnguyennus/awesome-scalability)
 - [awesome-distributed-systems - curated list on awesome material on distributed systems](https://github.com/theanalyst/awesome-distributed-systems)
+- [awesome-database-learning - a list of learning materials to understand databases internals](https://github.com/pingcap/awesome-database-learning)
