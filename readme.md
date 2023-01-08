@@ -22,6 +22,8 @@ This repository contains list of distributed system projects with open source co
 - (C++) [leveldb - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values](https://github.com/google/leveldb)
 - (Golang) [goleveldb - LevelDB implemented in Golang](https://github.com/syndtr/goleveldb)
 - (Golang) [summitdb - in-memory, NoSQL key/value database. It persists to disk, uses the Raft consensus algorithm, is ACID compliant, and built on a transactional and strongly-consistent model](https://github.com/tidwall/summitdb).It supports custom indexes, geospatial data, JSON documents, and user-defined JS scripting
+- (Python) [pupdb - a simple file-based key-value database](https://github.com/tuxmonk/pupdb)
+- (Python) [pickledb - an open source key-value store using Python's json module](https://github.com/patx/pickledb)
 
 ### Relational/SQL Databases
 
@@ -35,6 +37,7 @@ This repository contains list of distributed system projects with open source co
 - (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
 - (Golang) [FerretDB -  an open-source proxy, converting the MongoDB 6.0+ wire protocol queries to SQL - using PostgreSQL as a database engine](https://github.com/FerretDB/FerretDB)
 - (C#) [LiteDB - NoSQL Document Store in a single data file](https://github.com/mbdavid/LiteDB)
+- (Python) [tinydb - lightweight document oriented database written in pure Python](https://github.com/msiemens/tinydb)
 
 ### Graph Databases
 
