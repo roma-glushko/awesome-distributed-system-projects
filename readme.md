@@ -13,6 +13,7 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
 - (Golang) [immudb - immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
 - [Rust] [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
+- (Rust) [DB3 Network - open-source decentralized firebase firestore alternative](https://github.com/dbpunk-labs/db3)
 
 ### Key-Value Database
 
