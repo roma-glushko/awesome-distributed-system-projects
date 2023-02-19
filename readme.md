@@ -142,3 +142,5 @@ This repository contains list of distributed system projects with open source co
 - [awesome-scalability - Reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems](https://github.com/binhnguyennus/awesome-scalability)
 - [awesome-distributed-systems - curated list on awesome material on distributed systems](https://github.com/theanalyst/awesome-distributed-systems)
 - [awesome-database-learning - a list of learning materials to understand databases internals](https://github.com/pingcap/awesome-database-learning)
+- (C/C++)(Book) [Build Your Own Redis with C/C++](https://build-your-own.org/redis/#table-of-contents)
+- (C) (Article) [Writing a sqlite clone from scratch in C](https://cstack.github.io/db_tutorial/)
