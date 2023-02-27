@@ -25,6 +25,7 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [summitdb - in-memory, NoSQL key/value database. It persists to disk, uses the Raft consensus algorithm, is ACID compliant, and built on a transactional and strongly-consistent model](https://github.com/tidwall/summitdb).It supports custom indexes, geospatial data, JSON documents, and user-defined JS scripting
 - (Python) [pupdb - a simple file-based key-value database](https://github.com/tuxmonk/pupdb)
 - (Python) [pickledb - an open source key-value store using Python's json module](https://github.com/patx/pickledb)
+- (C++) [KeyDB - a faster drop-in multithreaded alternative to Redis](https://github.com/Snapchat/KeyDB)
 
 ### Relational/SQL Databases
 
