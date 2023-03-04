@@ -26,6 +26,7 @@ This repository contains list of distributed system projects with open source co
 - (Python) [pupdb - a simple file-based key-value database](https://github.com/tuxmonk/pupdb)
 - (Python) [pickledb - an open source key-value store using Python's json module](https://github.com/patx/pickledb)
 - (C++) [KeyDB - a faster drop-in multithreaded alternative to Redis](https://github.com/Snapchat/KeyDB)
+- (C++) [Dragonfly - is an in-memory data store fully compatible with Redis and Memcache and designed using modern algorithms](https://github.com/dragonflydb/dragonfly)
 
 ### Relational/SQL Databases
 
