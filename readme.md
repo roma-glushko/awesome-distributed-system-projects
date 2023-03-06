@@ -128,6 +128,7 @@ This repository contains list of distributed system projects with open source co
 - (JS) [hemera - A Node.js microservices toolkit for the NATS messaging system [RPC]](https://github.com/hemerajs/hemera)
 - (Python) [Tooz - centralizing the most common distributed primitives like group membership protocol, lock service and leader election by providing a coordination API helping developers to build distributed applications](https://github.com/openstack/tooz)
 - (C++) [Nebula - powerful framework for building highly concurrent, distributed, and resilient message-driven applications](https://github.com/Bwar/Nebula)
+- (GoLang) [Service Weaver - A framework that allows to write applications as modular binary and deploy it as a set of microservices](https://github.com/ServiceWeaver/weaver)
 
 ## Components
 
