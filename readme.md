@@ -33,6 +33,12 @@ This repository contains list of distributed system projects with open source co
 - (Dart) [Hive - a lightweight and blazing fast key-value database written in pure Dart. Inspired by Bitcask](https://github.com/hivedb/hive)
 - (Golang) [rosedb - a fast, stable, and embedded NoSQL database based on bitcask, supports a variety of data structures such as string, list, hash, set, and sorted set](https://github.com/flower-corp/rosedb)
 - (Rust) [PumpkinDB - an immutable Ordered Key-Value Database Engine](https://github.com/PumpkinDB/PumpkinDB)
+- (Golang) [FlashDB - a simple, in-memory, key/value store in pure Go.](https://github.com/arriqaaq/flashdb) It persists to disk, is ACID compliant, and uses locking for multiple readers and a single writer. It supports redis like operations for data structures like SET, SORTED SET, HASH and STRING
+- (PHP) [Lazer - a PHP flat file database based on JSON files](https://github.com/Lazer-Database/Lazer-Database)
+- (Golang) [Scribble - a tiny JSON database in Golang](https://github.com/sdomino/scribble)
+- (Golang) [FlyDB - a high-performance KV storage engine based on bitcask paper supports redis protocol and the corresponding data structure](https://github.com/qishenonly/flydb)
+- (Rust) [Engula - a distributed key-value store, used as a cache, database, and storage engine](https://github.com/engula/engula)
+- (Golang) [Dice - an extremely simple Golang-based in-memory KV store that speaks Redis dialect](https://github.com/DiceDB/dice)
 
 ### Relational, SQL, NewSQL Databases
 
@@ -51,6 +57,7 @@ This repository contains list of distributed system projects with open source co
 - (Python) [tinydb - a lightweight document oriented database written in pure Python](https://github.com/msiemens/tinydb)
 - (PHP) [SleekDB - a simple flat file NoSQL like database implemented in PHP without any third-party dependencies that store data in plain JSON files](https://github.com/rakibtg/SleekDB)
 - (Rust) [BonsaiDB - an ACID, transactional KV or document dev-friendly database with configurable delayed on-disk data storing](https://github.com/khonsulabs/bonsaidb)
+- (Golang) [CloverDB - a lightweight document-oriented NoSQL database written in pure Golang](https://github.com/ostafen/clover)
 
 ### Graph Databases
 
@@ -174,6 +181,8 @@ This repository contains list of distributed system projects with open source co
 - (C++) [NuRaft - Raft implementation derived from the cornerstone project](https://github.com/eBay/NuRaft)
 - (Python) [Hyx - Lightweight fault tolerance primitives for your resilient and modern Python microservices](https://github.com/roma-glushko/hyx)
 - (Python) [Migdalor - a Kubernetes native peer discovery for Python asyncio nodes](https://github.com/roma-glushko/migdalor)
+- (Golang) [skiplist - a Golang implementation of the skiplist data structure](https://github.com/huandu/skiplist)
+- (Java) [Waltz - a quorum-based distributed write-ahead log for replicating transactions](https://github.com/wepay/waltz)
 
 ## Other Resources
 
