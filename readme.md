@@ -9,6 +9,7 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [elasticell - a distributed HA Redis-compatible NoSQL database with strong consistency and reliability](https://github.com/deepfabric/elasticell)
 - (Erlang) [CouchDB - highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
 - (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
+- (C++) [scylladb - a real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB](https://github.com/scylladb/scylladb)
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
 - (Golang) [immudb - immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
@@ -27,6 +28,7 @@ This repository contains list of distributed system projects with open source co
 - (Python) [pickledb - an open source key-value store using Python's json module](https://github.com/patx/pickledb)
 - (C++) [KeyDB - a faster drop-in multithreaded alternative to Redis](https://github.com/Snapchat/KeyDB)
 - (C++) [Dragonfly - is an in-memory data store fully compatible with Redis and Memcache and designed using modern algorithms](https://github.com/dragonflydb/dragonfly)
+- [GoLang] (BadgerDB - an embeddable, persistent and fast key-value (KV) database written in pure Go)[https://github.com/dgraph-io/badger]
 
 ### Relational/SQL Databases
 
@@ -68,6 +70,7 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Kafka - distributed, highly scalable, elastic, fault-tolerant, and secure event streaming platform](https://github.com/apache/kafka)
 - (Python) [faust - a distributed stream processing library that ports the ideas from Kafka Streams to Python](https://github.com/robinhood/faust)
 - (Golang) [Liftbridge - lightweight, fault-tolerant message streams by implementing a durable stream augmentation for the NATS messaging system](https://github.com/liftbridge-io/liftbridge)
+- (Rust) [RisingWave - a distributed SQL database for stream processing, designed to reduce the complexity and cost of building real-time applications](https://github.com/risingwavelabs/risingwave)
 
 ## Schedulers
 
@@ -93,6 +96,7 @@ This repository contains list of distributed system projects with open source co
 - (JS) [FlexSearch - memory-flexible full-text search library](https://github.com/nextapps-de/flexsearch)
 - (Golang) [RiotSearch - distributed, Simple and efficient full text search engine](https://github.com/go-ego/riot)
 - (C++) [Typesense - fast, typo tolerant, fuzzy search engine](https://github.com/typesense/typesense)
+- (Rust) [Sonic - fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM](https://github.com/valeriansaliou/sonic)
 
 ## File Systems
 
@@ -129,6 +133,7 @@ This repository contains list of distributed system projects with open source co
 - (Python) [Tooz - centralizing the most common distributed primitives like group membership protocol, lock service and leader election by providing a coordination API helping developers to build distributed applications](https://github.com/openstack/tooz)
 - (C++) [Nebula - powerful framework for building highly concurrent, distributed, and resilient message-driven applications](https://github.com/Bwar/Nebula)
 - (GoLang) [Service Weaver - A framework that allows to write applications as modular binary and deploy it as a set of microservices](https://github.com/ServiceWeaver/weaver)
+- (GoLang) [Dapr - portable, serverless, event-driven runtime that works as a sidecar and makes it easy for developers to build resilient, stateless and stateful microservices](https://github.com/dapr/dapr)
 
 ## Components
 
@@ -139,6 +144,7 @@ This repository contains list of distributed system projects with open source co
 - (Elixir) [raft - Raft consensus implementation](https://github.com/toniqsystems/raft)
 - (C++) [NuRaft - Raft implementation derived from the cornerstone project](https://github.com/eBay/NuRaft)
 - (Python) [Hyx - Lightweight fault tolerance primitives for your resilient and modern Python microservices](https://github.com/roma-glushko/hyx)
+- (Python) [Migdalor - a Kubernetes native peer discovery for Python asyncio nodes](https://github.com/roma-glushko/migdalor)
 
 ## Other Resources
 
