@@ -4,50 +4,60 @@ This repository contains list of distributed system projects with open source co
 
 ## Databases
 
-- (Golang) [Jocko - Kafka/distributed commit log service in Go. [Serf + Raft]](https://github.com/travisjeffery/jocko)
-- (Golang) [oklog - distributed and coordination-free log management system for big ol' clusters [Archived]](https://github.com/oklog/oklog)
+- (Golang) [Jocko - a Kafka/distributed commit log service in Go. [Serf + Raft]](https://github.com/travisjeffery/jocko)
+- (Golang) [oklog - a distributed and coordination-free log management system for big ol' clusters [Archived]](https://github.com/oklog/oklog)
 - (Golang) [elasticell - a distributed HA Redis-compatible NoSQL database with strong consistency and reliability](https://github.com/deepfabric/elasticell)
-- (Erlang) [CouchDB - highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
-- (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
-- (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
-- (Golang) [immudb - immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
+- (Erlang) [CouchDB - a highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
+- (Java) [Apache HBase - a Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
+- (Golang) [Tair - a high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
+- (Golang) [immudb - an immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
 - [Rust] [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
-- (Rust) [DB3 Network - open-source decentralized firebase firestore alternative](https://github.com/dbpunk-labs/db3)
+- (Rust) [DB3 Network - a decentralized firebase firestore alternative](https://github.com/dbpunk-labs/db3)
 
 ### Key-Value Databases
 
-- (C) [memcached - high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
-- (C) [redis - in-memory database with various value types that persists on disk](https://github.com/redis/redis)
-- (Rust) [TiKV - distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
+- (C) [memcached - a high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
+- (C) [redis - an in-memory database with various value types that persists on disk](https://github.com/redis/redis)
+- (Rust) [TiKV - a distributed transactional key-value database, originally created to complement TiDB](https://github.com/tikv/tikv)
 - (C++) [leveldb - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values](https://github.com/google/leveldb)
-- (Golang) [goleveldb - LevelDB implemented in Golang](https://github.com/syndtr/goleveldb)
-- (Golang) [summitdb - in-memory, NoSQL key/value database. It persists to disk, uses the Raft consensus algorithm, is ACID compliant, and built on a transactional and strongly-consistent model](https://github.com/tidwall/summitdb).It supports custom indexes, geospatial data, JSON documents, and user-defined JS scripting
+- (Golang) [goleveldb - a LevelDB implemented in Golang](https://github.com/syndtr/goleveldb)
+- (Golang) [summitdb - an in-memory, NoSQL key/value database. It persists to disk, uses the Raft consensus algorithm, is ACID compliant, and built on a transactional and strongly-consistent model](https://github.com/tidwall/summitdb).It supports custom indexes, geospatial data, JSON documents, and user-defined JS scripting
 - (Python) [pupdb - a simple file-based key-value database](https://github.com/tuxmonk/pupdb)
 - (Python) [pickledb - an open source key-value store using Python's json module](https://github.com/patx/pickledb)
 - (C++) [KeyDB - a faster drop-in multithreaded alternative to Redis](https://github.com/Snapchat/KeyDB)
-- (C++) [Dragonfly - is an in-memory data store fully compatible with Redis and Memcache and designed using modern algorithms](https://github.com/dragonflydb/dragonfly)
-- [GoLang] [BadgerDB - an embeddable, persistent and fast key-value (KV) database written in pure Go](https://github.com/dgraph-io/badger)
-- [GoLang] [BuntDB is a low-level, in-memory, key/value store in pure Go.](https://github.com/tidwall/buntdb) It persists to disk, is ACID compliant, and uses locking for multiple readers and a single writer. It supports custom indexes and geospatial data.
+- (C++) [Dragonfly - an in-memory data store fully compatible with Redis and Memcache and designed using modern algorithms](https://github.com/dragonflydb/dragonfly)
+- (Golang) [BadgerDB - an embeddable, persistent and fast key-value (KV) database written in pure Go](https://github.com/dgraph-io/badger)
+- (Golang) [BuntDB - a low-level, in-memory, key/value store in pure Go.](https://github.com/tidwall/buntdb) It persists to disk, is ACID compliant, and uses locking for multiple readers and a single writer. It supports custom indexes and geospatial data.
+- (Rust) [ConstDB - a redis-like cache store that implements CRDTs and active-active replications.](https://github.com/tancehao/ConstDB)
+- (Golang) [GhostDB - a distributed, in-memory, general purpose key-value data store that delivers microsecond performance at any scale](https://github.com/jakekgrog/GhostDB)
+- (Dart) [Hive - a lightweight and blazing fast key-value database written in pure Dart. Inspired by Bitcask](https://github.com/hivedb/hive)
+- (Golang) [rosedb - a fast, stable, and embedded NoSQL database based on bitcask, supports a variety of data structures such as string, list, hash, set, and sorted set](https://github.com/flower-corp/rosedb)
+- (Rust) [PumpkinDB - an immutable Ordered Key-Value Database Engine](https://github.com/PumpkinDB/PumpkinDB)
 
 ### Relational, SQL, NewSQL Databases
 
-- (Golang) [CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
-- (Golang) [YugabyteDB - cloud native distributed SQL database for mission-critical applications](https://github.com/yugabyte/yugabyte-db)
-- (Golang) [RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
+- (Golang) [CockroachDB - a distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
+- (Golang) [YugabyteDB - a cloud native distributed SQL database for mission-critical applications](https://github.com/yugabyte/yugabyte-db)
+- (Golang) [RQLite - a lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
 - (Golang) [Kingbus - a distributed MySQL binlog store based on raft [Raft]](https://github.com/flike/kingbus)
+- (C++) [YDB is an open-source Distributed SQL Database that combines high availability and scalability with strict consistency and ACID transactions](https://github.com/ydb-platform/ydb)
+- (Golang) [RadonDB - an open source, Cloud-native MySQL database for unlimited scalability and performance](https://github.com/radondb/radon)
 
 ### NoSQL, Document Databases
 
 - (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
-- (Golang) [FerretDB -  an open-source proxy, converting the MongoDB 6.0+ wire protocol queries to SQL - using PostgreSQL as a database engine](https://github.com/FerretDB/FerretDB)
+- (Golang) [FerretDB - an proxy, converting the MongoDB 6.0+ wire protocol queries to SQL - using PostgreSQL as a database engine](https://github.com/FerretDB/FerretDB)
 - (C#) [LiteDB - NoSQL Document Store in a single data file](https://github.com/mbdavid/LiteDB)
-- (Python) [tinydb - lightweight document oriented database written in pure Python](https://github.com/msiemens/tinydb)
+- (Python) [tinydb - a lightweight document oriented database written in pure Python](https://github.com/msiemens/tinydb)
+- (PHP) [SleekDB - a simple flat file NoSQL like database implemented in PHP without any third-party dependencies that store data in plain JSON files](https://github.com/rakibtg/SleekDB)
+- (Rust) [BonsaiDB - an ACID, transactional KV or document dev-friendly database with configurable delayed on-disk data storing](https://github.com/khonsulabs/bonsaidb)
 
 ### Graph Databases
 
 - (Java) [neo4j - Graph Database](https://github.com/neo4j/neo4j)
 - (Python) [edgedb - a graph-relational database](https://github.com/edgedb/edgedb)
 - (C++) [nebula - a distributed, fast open-source graph database featuring horizontal scalability and high availability](https://github.com/vesoft-inc/nebula)
+- (Golang) [EliasDB - a graph-based lightweight database](https://github.com/krotik/eliasdb)
 
 ### Time Series
 
@@ -57,11 +67,26 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Apache Doris - an easy-to-use, high performance and unified analytics database](https://github.com/apache/doris)
 - (Scala) [FiloDB - Distributed, Prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
 - (Rust) [ceresdb - high-performance, distributed, schema-less, cloud native time-series database that can handle both time-series and analytics workloads](https://github.com/CeresDB/ceresdb)
+- (Golang) [tstorage is a lightweight local on-disk storage engine for time-series data with a straightforward API](https://github.com/nakabonne/tstorage)
+-  (Rust) [CnosDB is a high-performance, high-compression, and easy-to-use open-source distributed time-series database. Used in fields such as IoT, industrial internet, connected cars, and IT operations](https://github.com/cnosdb/cnosdb)
+-  (Golang) [LinDB - a scalable, high performance, high availability distributed time series database](https://github.com/lindb/lindb)
+-  (Scala) [FiloDB - a distributed, prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
+-  (Rust) [CeresDB - a high-performance, distributed, cloud native time-series database](https://github.com/CeresDB/ceresdb)
 
-### Column Database
+### Column Databases
 
 - (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
 - (C++) [scylladb - a real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB](https://github.com/scylladb/scylladb)
+- (Golang) [FrostDB - an embeddable wide-column columnar database written in Go](https://github.com/polarsignals/frostdb)
+
+### Permission Databases
+
+- (Golang) [SpiceDB - a Google Zanzibar-inspired, database system for creating and managing security-critical application permissions](https://github.com/authzed/spicedb)
+
+### Analytical Databases
+
+- (C++) [BaikalDB is a distributed HTAP MySQL-compatible database designed for petabytes scale](https://github.com/baidu/BaikalDB) 
+- (Golang) [AresDB - a GPU-powered real-time analytics storage and query engine](https://github.com/uber/aresdb)
 
 ## Locking
 
@@ -71,15 +96,15 @@ This repository contains list of distributed system projects with open source co
 
 ## Streaming
 
-- (Java) [Kafka - distributed, highly scalable, elastic, fault-tolerant, and secure event streaming platform](https://github.com/apache/kafka)
+- (Java) [Kafka - a distributed, highly scalable, elastic, fault-tolerant, and secure event streaming platform](https://github.com/apache/kafka)
 - (Python) [faust - a distributed stream processing library that ports the ideas from Kafka Streams to Python](https://github.com/robinhood/faust)
-- (Golang) [Liftbridge - lightweight, fault-tolerant message streams by implementing a durable stream augmentation for the NATS messaging system](https://github.com/liftbridge-io/liftbridge)
+- (Golang) [Liftbridge - a lightweight, fault-tolerant message streams by implementing a durable stream augmentation for the NATS messaging system](https://github.com/liftbridge-io/liftbridge)
 - (Rust) [RisingWave - a distributed SQL database for stream processing, designed to reduce the complexity and cost of building real-time applications](https://github.com/risingwavelabs/risingwave)
 
 ## Schedulers
 
-- (Golang) [dkron - distributed, fault tolerant job scheduling system for cloud native environments](https://github.com/distribworks/dkron)
-- (Python) [Celery - distributed task queue](https://github.com/celery/celery)
+- (Golang) [dkron - a distributed, fault tolerant job scheduling system for cloud native environments](https://github.com/distribworks/dkron)
+- (Python) [Celery - a distributed task queue](https://github.com/celery/celery)
 - (Python) [Apache Airflow - a platform to programmatically author, schedule, and monitor workflows](https://github.com/apache/airflow)
 
 ## Queues
