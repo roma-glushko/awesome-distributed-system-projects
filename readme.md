@@ -191,3 +191,5 @@ This repository contains list of distributed system projects with open source co
 - [awesome-database-learning - a list of learning materials to understand databases internals](https://github.com/pingcap/awesome-database-learning)
 - (C/C++)(Book) [Build Your Own Redis with C/C++](https://build-your-own.org/redis/#table-of-contents)
 - (C) (Article) [Writing a sqlite clone from scratch in C](https://cstack.github.io/db_tutorial/)
+- [Berkley CS186: Intro into Database Systems](https://sites.google.com/site/cs186fall2013/homeworks)
+- [MIT 6.830: Database Systems](https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/pages/assignments/)
