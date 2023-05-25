@@ -8,15 +8,13 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [oklog - distributed and coordination-free log management system for big ol' clusters [Archived]](https://github.com/oklog/oklog)
 - (Golang) [elasticell - a distributed HA Redis-compatible NoSQL database with strong consistency and reliability](https://github.com/deepfabric/elasticell)
 - (Erlang) [CouchDB - highly available, partition tolerant, eventually consistent document database ](https://github.com/apache/couchdb). Supports master-master setups with automatic conflict detection.
-- (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
-- (C++) [scylladb - a real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB](https://github.com/scylladb/scylladb)
 - (Java) [Apache HBase - Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 - (Golang) [Tair - high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
 - (Golang) [immudb - immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
 - [Rust] [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
 - (Rust) [DB3 Network - open-source decentralized firebase firestore alternative](https://github.com/dbpunk-labs/db3)
 
-### Key-Value Database
+### Key-Value Databases
 
 - (C) [memcached - high performance multithreaded event-based key/value cache store intended to be used in a distributed system](https://github.com/memcached/memcached)
 - (C) [redis - in-memory database with various value types that persists on disk](https://github.com/redis/redis)
@@ -30,14 +28,14 @@ This repository contains list of distributed system projects with open source co
 - (C++) [Dragonfly - is an in-memory data store fully compatible with Redis and Memcache and designed using modern algorithms](https://github.com/dragonflydb/dragonfly)
 - [GoLang] (BadgerDB - an embeddable, persistent and fast key-value (KV) database written in pure Go)[https://github.com/dgraph-io/badger]
 
-### Relational/SQL Databases
+### Relational, SQL, NewSQL Databases
 
 - (Golang) [CockroachDB - distributed fault-tolerant SQL database built on a transactional and strongly-consistent key-value store](https://github.com/cockroachdb/cockroach)
 - (Golang) [YugabyteDB - cloud native distributed SQL database for mission-critical applications](https://github.com/yugabyte/yugabyte-db)
 - (Golang) [RQLite - lightweight, distributed relational database, which uses SQLite as its storage engine](https://github.com/rqlite/rqlite)
 - (Golang) [Kingbus - a distributed MySQL binlog store based on raft [Raft]](https://github.com/flike/kingbus)
 
-### NoSQL/Document Databases
+### NoSQL, Document Databases
 
 - (C++) [MongoDB - document database designed for ease of development and scaling](https://github.com/mongodb/mongo)
 - (Golang) [FerretDB -  an open-source proxy, converting the MongoDB 6.0+ wire protocol queries to SQL - using PostgreSQL as a database engine](https://github.com/FerretDB/FerretDB)
@@ -58,6 +56,11 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Apache Doris - an easy-to-use, high performance and unified analytics database](https://github.com/apache/doris)
 - (Scala) [FiloDB - Distributed, Prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
 - (Rust) [ceresdb - high-performance, distributed, schema-less, cloud native time-series database that can handle both time-series and analytics workloads](https://github.com/CeresDB/ceresdb)
+
+### Column Database
+
+- (Java) [Apache Cassandra - a highly-scalable partitioned row store. Rows are organized into tables with a required primary key](https://github.com/apache/cassandra)
+- (C++) [scylladb - a real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB](https://github.com/scylladb/scylladb)
 
 ## Locking
 
