@@ -11,8 +11,9 @@ This repository contains list of distributed system projects with open source co
 - (Java) [Apache HBase - a Hadoop database, a distributed, scalable, big data store](https://github.com/apache/hbase). Useful when random, realtime read/write access to big data needed
 - (Golang) [Tair - a high-performance and high-availability distributed fast-access memory (MDB)/persistent (LDB) storage service](https://github.com/alibaba/tair)
 - (Golang) [immudb - an immutable database based on zero trust, Key/Value & SQL, tamperproof, data change history](https://github.com/codenotary/immudb)
-- [Rust] [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
+- (Rust) [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
 - (Rust) [DB3 Network - a decentralized firebase firestore alternative](https://github.com/dbpunk-labs/db3)
+- (Python) [ZODB - an ACID transactional object-oriented database](https://github.com/zopefoundation/ZODB)
 
 ### Key-Value Databases
 
