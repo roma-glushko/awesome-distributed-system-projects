@@ -26,7 +26,8 @@ This repository contains list of distributed system projects with open source co
 - (Python) [pickledb - an open source key-value store using Python's json module](https://github.com/patx/pickledb)
 - (C++) [KeyDB - a faster drop-in multithreaded alternative to Redis](https://github.com/Snapchat/KeyDB)
 - (C++) [Dragonfly - is an in-memory data store fully compatible with Redis and Memcache and designed using modern algorithms](https://github.com/dragonflydb/dragonfly)
-- [GoLang] (BadgerDB - an embeddable, persistent and fast key-value (KV) database written in pure Go)[https://github.com/dgraph-io/badger]
+- [GoLang] [BadgerDB - an embeddable, persistent and fast key-value (KV) database written in pure Go](https://github.com/dgraph-io/badger)
+- [GoLang] [BuntDB is a low-level, in-memory, key/value store in pure Go.](https://github.com/tidwall/buntdb) It persists to disk, is ACID compliant, and uses locking for multiple readers and a single writer. It supports custom indexes and geospatial data.
 
 ### Relational, SQL, NewSQL Databases
 
