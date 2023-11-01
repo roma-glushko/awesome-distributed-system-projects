@@ -148,7 +148,7 @@ This repository contains list of distributed system projects with open source co
 
 ## Data Processing
 
-- (Scala) [Apache Spark - unified analytics engine for large-scale data processing](https://github.com/ursiform/sleuth)
+- (Scala) [Apache Spark - unified analytics engine for large-scale data processing](https://github.com/apache/spark)
 
 ## TerminusDB
 
