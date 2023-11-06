@@ -136,6 +136,14 @@ This repository contains list of distributed system projects with open source co
 - (C++) [Typesense - fast, typo tolerant, fuzzy search engine](https://github.com/typesense/typesense)
 - (Rust) [Sonic - fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM](https://github.com/valeriansaliou/sonic)
 
+## Vectors
+
+- (Rust) [Qdrant - a vector similarity search engine and vector database](https://github.com/qdrant/qdrant)
+- (Golang) [milvus - an open-source vector database built to power embedding similarity search and AI applications](https://github.com/milvus-io/milvus)
+- (Golang) [Weaviate - an open source vector database that stores both objects and vectors](https://github.com/weaviate/weaviate)
+- (Golang) [tobias-mayer/vector-db - a simple vector database that can be used to search for similar vectors in logarithmic time](https://github.com/tobias-mayer/vector-db)
+- (Rust) [DANNY - a decentralized vector database for building vector search applications](https://github.com/firstbatchxyz/danny)
+
 ## File Systems
 
 - (Golang) [JuiceFS - Hadoop-compatible AWS S3-compatible high-performance POSIX file system](https://github.com/juicedata/juicefs)
