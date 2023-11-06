@@ -90,6 +90,7 @@ This repository contains list of distributed system projects with open source co
 ### Permission Databases
 
 - (Golang) [SpiceDB - a Google Zanzibar-inspired, database system for creating and managing security-critical application permissions](https://github.com/authzed/spicedb)
+- (Golang) [Keto - a Google Zanzibar-inspired open source database, gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC](https://github.com/ory/keto)
 
 ### Analytical Databases
 
