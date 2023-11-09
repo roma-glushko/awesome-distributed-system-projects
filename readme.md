@@ -1,5 +1,5 @@
 <p align="center">
-  <img loading="lazy" src="https://raw.githubusercontent.com/roma-glushko/awesome-distributed-system-projects/main/imgs/logo.png" width="500px" alt="awesome distributed systems">
+  <img loading="lazy" src="https://raw.githubusercontent.com/roma-glushko/awesome-distributed-system-projects/master/imgs/logo.png" width="500px" alt="awesome distributed systems">
 </p>
 
 # Awesome Distributed Systems
