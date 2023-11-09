@@ -1,4 +1,8 @@
-# Awesome Distributed System Projects
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/roma-glushko/awesome-distributed-system-projects/main/imgs/logo.png" width="500px" alt="awesome distributed systems">
+</p>
+
+# Awesome Distributed Systems
 
 This repository contains list of distributed system projects with open source code in various programming languages which may be useful in order to better understand how to build distributed services.
 
