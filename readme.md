@@ -80,10 +80,10 @@ This repository contains list of distributed system projects with open source co
 - (Scala) [FiloDB - Distributed, Prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
 - (Rust) [ceresdb - high-performance, distributed, schema-less, cloud native time-series database that can handle both time-series and analytics workloads](https://github.com/CeresDB/ceresdb)
 - (Golang) [tstorage is a lightweight local on-disk storage engine for time-series data with a straightforward API](https://github.com/nakabonne/tstorage)
--  (Rust) [CnosDB is a high-performance, high-compression, and easy-to-use open-source distributed time-series database. Used in fields such as IoT, industrial internet, connected cars, and IT operations](https://github.com/cnosdb/cnosdb)
--  (Golang) [LinDB - a scalable, high performance, high availability distributed time series database](https://github.com/lindb/lindb)
--  (Scala) [FiloDB - a distributed, prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
--  (Rust) [CeresDB - a high-performance, distributed, cloud native time-series database](https://github.com/CeresDB/ceresdb)
+- (Rust) [CnosDB is a high-performance, high-compression, and easy-to-use open-source distributed time-series database. Used in fields such as IoT, industrial internet, connected cars, and IT operations](https://github.com/cnosdb/cnosdb)
+- (Golang) [LinDB - a scalable, high performance, high availability distributed time series database](https://github.com/lindb/lindb)
+- (Scala) [FiloDB - a distributed, prometheus-compatible, real-time, in-memory, massively scalable, multi-schema time series / event / operational database](https://github.com/filodb/FiloDB)
+- (Rust) [CeresDB - a high-performance, distributed, cloud native time-series database](https://github.com/CeresDB/ceresdb)
 
 ### Column Databases
 
@@ -100,6 +100,24 @@ This repository contains list of distributed system projects with open source co
 
 - (C++) [BaikalDB is a distributed HTAP MySQL-compatible database designed for petabytes scale](https://github.com/baidu/BaikalDB) 
 - (Golang) [AresDB - a GPU-powered real-time analytics storage and query engine](https://github.com/uber/aresdb)
+
+### Vectors
+
+- (Rust) [Qdrant - a vector similarity search engine and vector database](https://github.com/qdrant/qdrant)
+- (Golang) [milvus - an open-source vector database built to power embedding similarity search and AI applications](https://github.com/milvus-io/milvus)
+- (Golang) [Weaviate - an open source vector database that stores both objects and vectors](https://github.com/weaviate/weaviate)
+- (Golang) [tobias-mayer/vector-db - a simple vector database that can be used to search for similar vectors in logarithmic time](https://github.com/tobias-mayer/vector-db)
+- (Rust) [DANNY - a decentralized vector database for building vector search applications](https://github.com/firstbatchxyz/danny)
+
+## Gateways
+
+- (Golang) [Glide - an open reliable fast LLM/model gateway for rapid development of GenAI apps](https://github.com/EinStack/glide)
+- (Golang) [Traefik - a cloud-native app proxy](https://github.com/traefik/traefik)
+- (Lua) [Kong - a cloud-native feature-rich API gatewat](https://github.com/Kong/kong)
+- (Golang) [Skipper - an HTTP router and reverse proxy for service composition](https://github.com/zalando/skipper)
+- (Golang) [janus - a lightweight API gateway and management platform](https://github.com/motiv-labs/janus)
+- (Golang) [Lura - ultra performance API gateway with middlewares](https://github.com/luraproject/lura)
+- (Python) [MLFLow Gateway - an LLM proxy](https://github.com/mlflow/mlflow/tree/master/mlflow/gateway)
 
 ## Locking
 
@@ -139,14 +157,6 @@ This repository contains list of distributed system projects with open source co
 - (Golang) [RiotSearch - distributed, Simple and efficient full text search engine](https://github.com/go-ego/riot)
 - (C++) [Typesense - fast, typo tolerant, fuzzy search engine](https://github.com/typesense/typesense)
 - (Rust) [Sonic - fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM](https://github.com/valeriansaliou/sonic)
-
-## Vectors
-
-- (Rust) [Qdrant - a vector similarity search engine and vector database](https://github.com/qdrant/qdrant)
-- (Golang) [milvus - an open-source vector database built to power embedding similarity search and AI applications](https://github.com/milvus-io/milvus)
-- (Golang) [Weaviate - an open source vector database that stores both objects and vectors](https://github.com/weaviate/weaviate)
-- (Golang) [tobias-mayer/vector-db - a simple vector database that can be used to search for similar vectors in logarithmic time](https://github.com/tobias-mayer/vector-db)
-- (Rust) [DANNY - a decentralized vector database for building vector search applications](https://github.com/firstbatchxyz/danny)
 
 ## File Systems
 
