@@ -128,7 +128,7 @@ This repository contains list of distributed system projects with open source co
 ## Streaming
 
 - (Java) [Kafka - a distributed, highly scalable, elastic, fault-tolerant, and secure event streaming platform](https://github.com/apache/kafka)
-- (Python) [faust - a distributed stream processing library that ports the ideas from Kafka Streams to Python](https://github.com/robinhood/faust)
+- (Python) [faust - a distributed stream processing library that ports the ideas from Kafka Streams to Python](https://github.com/faust-streaming/faust)
 - (Golang) [Liftbridge - a lightweight, fault-tolerant message streams by implementing a durable stream augmentation for the NATS messaging system](https://github.com/liftbridge-io/liftbridge)
 - (Rust) [RisingWave - a distributed SQL database for stream processing, designed to reduce the complexity and cost of building real-time applications](https://github.com/risingwavelabs/risingwave)
 
