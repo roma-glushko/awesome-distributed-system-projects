@@ -18,6 +18,7 @@ This repository contains list of distributed system projects with open source co
 - (Rust) [toydb - distributed SQL database in Rust, written as a learning project](https://github.com/erikgrinaker/toydb)
 - (Rust) [DB3 Network - a decentralized firebase firestore alternative](https://github.com/dbpunk-labs/db3)
 - (Python) [ZODB - an ACID transactional object-oriented database](https://github.com/zopefoundation/ZODB)
+- (Golang) [requiemdb - a permanent storage for OTEL data](https://github.com/gernest/requiemdb/tree/main)
 
 ### Key-Value Databases
 
